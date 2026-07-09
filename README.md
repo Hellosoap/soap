@@ -99,6 +99,7 @@ Orders Module: Handles creating new orders, retrieving all orders, fetching orde
 | PATCH | /api/orders/:id/status | Updates ONLY the status of an order |
 # PROJECT STRUCTURE
 
+```text
 WebL4 - Project/
 ├── config/        # Configuration files
 ├── controllers/   # Route controllers
@@ -113,3 +114,4 @@ WebL4 - Project/
 ├── seed.js        # Seed script
 ├── package.json   # Project dependencies
 └── README.md      # Project documentation
+```
